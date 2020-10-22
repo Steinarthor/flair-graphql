@@ -1,0 +1,5 @@
+type AuthResponse {
+    status: Int
+    token: String
+    message: String
+}

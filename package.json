@@ -1,0 +1,40 @@
+{
+  "name": "flair-graphql",
+  "version": "1.0.0",
+  "description": "Graphql server for flair",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steinarthor/flair-graphql.git"
+  },
+  "author": "Steinar Þór Oddsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Steinarthor/flair-graphql/issues"
+  },
+  "homepage": "https://github.com/Steinarthor/flair-graphql#readme",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.8.1",
+    "apollo-server": "^2.12.0",
+    "graphql": "^15.0.0",
+    "graphql-import": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "^2.0.5"
+  }
+}
