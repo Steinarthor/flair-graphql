@@ -1,5 +1,6 @@
 import AuthAPI from "./datasources/auth";
 import UserAPI from "./datasources/user";
+import EventsAPI from "./datasources/events";
 import { importSchema } from "graphql-import";
 import { makeExecutableSchema } from "graphql-tools";
 import { ApolloServer } from "apollo-server";
@@ -14,6 +15,7 @@ const server = new ApolloServer({
     return {
       authAPI: new AuthAPI(),
       userAPI: new UserAPI(),
+      eventsAPI: new EventsAPI(),
     };
   },
   context: ({ req }) => ({

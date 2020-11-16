@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="576542b6-4831-4dcb-9cba-6c273120842d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.graphqlconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasources/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasources/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/authResponse.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/login.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/signup.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/userResponse.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resolvers/resolvers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schema.graphql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasources/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/datasources/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +59,7 @@
       <workItem from="1603305604180" duration="1151000" />
       <workItem from="1603359444386" duration="19000" />
       <workItem from="1603389955798" duration="838000" />
+      <workItem from="1603823095329" duration="149000" />
     </task>
     <servers />
   </component>

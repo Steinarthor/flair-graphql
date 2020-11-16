@@ -15,6 +15,9 @@ export const resolvers = {
         email: userResponse.email,
       };
     },
+    events: async (_, __, { dataSources }) => {
+      return await dataSources.eventsAPI.getEvents();
+    },
   },
   Mutation: {
     login: async (_, { input }, { dataSources }) => {
@@ -63,6 +66,9 @@ export const resolvers = {
       } catch (error) {
         throw new AuthenticationError(error);
       }
+    },
+    addEvent: async (_, __, { dataSources }) => {
+      return await dataSources.eventsAPI.addEvent();
     },
   },
 };

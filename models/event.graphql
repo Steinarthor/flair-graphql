@@ -1,0 +1,9 @@
+type Event {
+  id: ID
+  title: String
+  hoast: String
+  time: String
+  duration: Float
+  category: String
+  location: String
+}

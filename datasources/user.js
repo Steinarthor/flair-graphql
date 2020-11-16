@@ -7,7 +7,7 @@ export default class UserAPI extends RESTDataSource {
   }
 
   willSendRequest(request) {
-    request.headers.set("Authorization", `Bearer ${this.context.token}`);
+    request.headers.set("Authorization", `${this.context.token}`);
   }
 
   async user() {

@@ -2,24 +2,27 @@
 # import Login from "./models/login.graphql"
 # import Signup from "./models/signup.graphql"
 # import AuthResponse from "./models/authResponse.graphql"
+# import Event from "./models/event.graphql"
 
 input LoginInput {
-    username: String!
-    password: String
+  username: String!
+  password: String
 }
 
 input SignupInput {
-    username: String!
-    password: String!
-    name: String!
-    email: String
+  username: String!
+  password: String!
+  name: String!
+  email: String
 }
 
 type Query {
-    user: User
+  user: User
+  events: [Event]
 }
 
 type Mutation {
-    login(input: LoginInput): AuthResponse
-    signup(input: SignupInput): AuthResponse
+  login(input: LoginInput): AuthResponse
+  signup(input: SignupInput): AuthResponse
+  addEvent: Event
 }
