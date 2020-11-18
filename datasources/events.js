@@ -7,8 +7,9 @@ export default class EventsAPI extends RESTDataSource {
     //this.baseURL = "http://localhost:8081/";
   }
 
-  async getEvents() {
-    return mocks;
+  async getEvents(location) {
+    const event = mocks.filter((event) => event.location === location);
+    return event;
   }
 
   async getEvent(id) {
