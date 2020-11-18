@@ -15,6 +15,15 @@ export const resolvers = {
         email: userResponse.email,
       };
     },
+    event: async (_, { id }, { dataSources }) => {
+      return await dataSources.eventsAPI.getEvent(id);
+    },
+    eventCategory: async (_, { category, location }, { dataSources }) => {
+      return await dataSources.eventsAPI.getEventCategory(category, location);
+    },
+    eventLocation: async (_, { location }, { dataSources }) => {
+      return await dataSources.eventsAPI.getEventLocation(location);
+    },
     events: async (_, __, { dataSources }) => {
       return await dataSources.eventsAPI.getEvents();
     },

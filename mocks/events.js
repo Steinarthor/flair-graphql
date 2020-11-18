@@ -2,7 +2,7 @@ export const mocks = [
   {
     id: 1,
     title: "JavaScript meetup",
-    hoast: "Steinar Þór Oddsson",
+    host: "Steinar Þór Oddsson",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 1,
     category: "programming",
@@ -11,7 +11,7 @@ export const mocks = [
   {
     id: 2,
     title: "James Blake",
-    hoast: "Iceland Airwaves",
+    host: "Iceland Airwaves",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 1.5,
     category: "music",
@@ -20,7 +20,7 @@ export const mocks = [
   {
     id: 3,
     title: "Star Wars Premiere",
-    hoast: "Disney",
+    host: "Disney",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 3,
     category: "film",
@@ -29,7 +29,7 @@ export const mocks = [
   {
     id: 4,
     title: "Pina Bausch Vollmond",
-    hoast: "Baiba Vanaga",
+    host: "Baiba Vanaga",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 1,
     category: "dance",
@@ -38,7 +38,7 @@ export const mocks = [
   {
     id: 5,
     title: "X Games",
-    hoast: "Steinar Þór Oddsson",
+    host: "Steinar Þór Oddsson",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 1.5,
     category: "sports",
@@ -47,7 +47,7 @@ export const mocks = [
   {
     id: 6,
     title: "Noam Chomsky book signing",
-    hoast: "Goodreads",
+    host: "Goodreads",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 0.5,
     category: "books",
@@ -56,7 +56,7 @@ export const mocks = [
   {
     id: 7,
     title: "A$AP Rocky tour",
-    hoast: "New York Music",
+    host: "New York Music",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 2.5,
     category: "music",
@@ -65,7 +65,7 @@ export const mocks = [
   {
     id: 8,
     title: "Vine tasting",
-    hoast: "Vine & Co",
+    host: "Vine & Co",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 3,
     category: "food and drink",
@@ -74,7 +74,7 @@ export const mocks = [
   {
     id: 9,
     title: "Beer meetup",
-    hoast: "Elmar Geir",
+    host: "Elmar Geir",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 2,
     category: "food and drink",
@@ -83,10 +83,37 @@ export const mocks = [
   {
     id: 10,
     title: "Eddward Hopper The Nighthawks",
-    hoast: "Reykjavík Art Festival",
+    host: "Reykjavík Art Festival",
     time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
     duration: 0,
     category: "art",
     location: "Reykjavík",
+  },
+  {
+    id: 11,
+    title: "Post Malone",
+    host: "Iceland Airwaves",
+    time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
+    duration: 1.5,
+    category: "music",
+    location: "Reykjavík",
+  },
+  {
+    id: 12,
+    title: "Kayne West",
+    host: "Iceland Airwaves",
+    time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
+    duration: 1.5,
+    category: "music",
+    location: "Reykjavík",
+  },
+  {
+    id: 13,
+    title: "Frank Ocean",
+    host: "Glory, Glory",
+    time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
+    duration: 1.5,
+    category: "music",
+    location: "New York",
   },
 ];

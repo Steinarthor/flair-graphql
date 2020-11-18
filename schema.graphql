@@ -18,6 +18,9 @@ input SignupInput {
 
 type Query {
   user: User
+  event(id: Int): Event
+  eventCategory(category: String, location: String): [Event]
+  eventLocation(location: String): [Event]
   events: [Event]
 }
 
