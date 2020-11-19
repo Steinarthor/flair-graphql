@@ -7,8 +7,13 @@ export default class EventsAPI extends RESTDataSource {
     //this.baseURL = "http://localhost:8081/";
   }
 
-  async getEvents(location) {
-    const event = mocks.filter((event) => event.location === location);
+  async getEvents(location, month, date) {
+    const event = mocks.filter(
+      (event) =>
+        event.location === location &&
+        event.month === month &&
+        event.date === date
+    );
     return event;
   }
 
@@ -36,13 +41,15 @@ export default class EventsAPI extends RESTDataSource {
 
   async addEvent() {
     const mockEvent = {
-      id: mocks.length + 1,
-      title: "Polling test",
-      host: "Flair",
-      time: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
+      id: 1122,
+      title: "TEST",
+      host: "Iceland Airwaves",
+      timestamp: "Thu Nov 12 2020 17:40:37 GMT+0000 (Greenwich Mean Time)",
       duration: 1.5,
-      category: "programming",
-      location: "London",
+      category: "music",
+      location: "Reykjavík",
+      month: 10,
+      date: 19,
     };
     mocks.unshift(mockEvent);
     return mockEvent;

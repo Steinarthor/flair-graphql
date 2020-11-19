@@ -24,8 +24,9 @@ export const resolvers = {
     eventLocation: async (_, { location }, { dataSources }) => {
       return await dataSources.eventsAPI.getEventLocation(location);
     },
-    events: async (_, { location }, { dataSources }) => {
-      return await dataSources.eventsAPI.getEvents(location);
+    events: async (_, { location, month, date }, { dataSources }) => {
+      // add date also
+      return await dataSources.eventsAPI.getEvents(location, month, date);
     },
   },
   Mutation: {

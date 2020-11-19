@@ -2,7 +2,7 @@ type Event {
   id: ID
   title: String
   host: String
-  time: String
+  timestamp: String
   duration: Float
   category: String
   location: String

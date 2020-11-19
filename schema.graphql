@@ -21,7 +21,7 @@ type Query {
   event(id: Int): Event
   eventCategory(category: String, location: String): [Event]
   eventLocation(location: String): [Event]
-  events(location: String): [Event]
+  events(location: String, month: Int, date: Int): [Event]
 }
 
 type Mutation {
