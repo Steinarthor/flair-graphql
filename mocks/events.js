@@ -1,3 +1,5 @@
+import { users } from "./users";
+
 export const mocks = [
   {
     id: 1,
@@ -9,6 +11,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 2,
@@ -20,6 +25,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 3,
@@ -31,6 +39,9 @@ export const mocks = [
     location: "London",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 4,
@@ -42,6 +53,9 @@ export const mocks = [
     location: "Riga",
     month: 10,
     date: 20,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 5,
@@ -53,6 +67,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 22,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 6,
@@ -64,6 +81,9 @@ export const mocks = [
     location: "New York",
     month: 10,
     date: 22,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 7,
@@ -75,6 +95,9 @@ export const mocks = [
     location: "New York",
     month: 10,
     date: 22,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 8,
@@ -86,6 +109,9 @@ export const mocks = [
     location: "Riga",
     month: 10,
     date: 20,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 9,
@@ -97,6 +123,9 @@ export const mocks = [
     location: "Keflavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 10,
@@ -108,6 +137,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 11,
@@ -119,6 +151,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 12,
@@ -130,6 +165,9 @@ export const mocks = [
     location: "Reykjavík",
     month: 10,
     date: 19,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
   {
     id: 13,
@@ -141,5 +179,8 @@ export const mocks = [
     location: "New York",
     month: 10,
     date: 23,
+    attending: users,
+    description:
+      "Stare at owner accusingly then wink scream for no reason at 4 am, yet run up and down stairs yet enslave the hooman but love to play with owner's hair tie and annoy kitten brother with poking. Litter kitter kitty litty little kitten big roar roar feed me reaches under door into adjacent room. Lick butt pet right here, no not there, here, no fool, right here that other cat smells funny you should really give me all the treats because i smell the best and omg you finally got the right spot and i love you right now for playing with balls of wool rub face on owner but under the bed furrier and even more furrier hairball your pillow is now my pet bed. Cats secretly make all the worlds muffins get video posted to internet for chasing red dot or you call this cat food yet wake up wander around the house making large amounts of noise jump on top of your human's bed and fall asleep again dream about hunting birds. Get suspicious of own shadow then go play with toilette paper munch on tasty.",
   },
 ];

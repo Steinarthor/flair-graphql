@@ -1,3 +1,5 @@
+# import User from "./user.graphql"
+
 type Event {
   id: ID
   title: String
@@ -6,4 +8,8 @@ type Event {
   duration: Float
   category: String
   location: String
+  description: String
+  date: Int
+  month: Int
+  attending: [User]
 }
