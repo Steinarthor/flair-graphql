@@ -10,7 +10,7 @@ export default class AuthAPI extends RESTDataSource {
     return this.post("login", { username, password });
   }
 
-  async signup({ name, username, password, email }) {
-    return this.post("signup", { name, username, password, email });
+  async signup({ name, password, email }) {
+    return this.post("signup", { name, password, email });
   }
 }

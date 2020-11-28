@@ -1,6 +1,5 @@
 type Signup {
-    name: String
-    username: String
-    password: String
-    email: String
+  name: String
+  password: String
+  email: String
 }
