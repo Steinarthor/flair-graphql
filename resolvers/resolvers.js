@@ -11,7 +11,6 @@ export const resolvers = {
       return {
         id: userResponse.id,
         name: userResponse.name,
-        username: userResponse.username,
         email: userResponse.email,
       };
     },
@@ -33,15 +32,15 @@ export const resolvers = {
     login: async (_, { input }, { dataSources }) => {
       // Here could be email validation etc.
 
-      if (!input.username && !input.password) {
-        throw new UserInputError("Please provide username", {
-          invalidArgs: ["Username", "Password"],
+      if (!input.email && !input.password) {
+        throw new UserInputError("Please provide email or password", {
+          invalidArgs: ["Email", "Password"],
         });
       }
 
-      if (!input.username) {
-        throw new UserInputError("Please provide username", {
-          invalidArgs: "Username",
+      if (!input.email) {
+        throw new UserInputError("Please provide email", {
+          invalidArgs: "Email",
         });
       }
 
@@ -66,12 +65,15 @@ export const resolvers = {
       }
     },
     signup: async (_, { input }, { dataSources }) => {
-      if (!input.username || !input.password || !input.name || !input.email) {
+      if (!input.email || !input.password || !input.name || !input.email) {
         throw new AuthenticationError("Please provide credentials");
       }
       try {
+        const singupResponse = await dataSources.authAPI.signup(input);
         return {
-          token: dataSources.authAPI.signup(input),
+          status: singupResponse.Status,
+          token: singupResponse.Token,
+          message: singupResponse.Message,
         };
       } catch (error) {
         throw new AuthenticationError(error);
@@ -79,6 +81,18 @@ export const resolvers = {
     },
     addEvent: async (_, __, { dataSources }) => {
       return await dataSources.eventsAPI.addEvent();
+    },
+    addUser: async (_, { input }, { dataSources }) => {
+      try {
+        const addUserResponse = await dataSources.userAPI.addUser(input);
+        return {
+          id: addUserResponse.id,
+          name: addUserResponse.name,
+          email: addUserResponse.email,
+        };
+      } catch (error) {
+        throw new AuthenticationError(error);
+      }
     },
   },
 };

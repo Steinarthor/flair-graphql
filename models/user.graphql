@@ -1,9 +1,5 @@
 type User {
   id: ID
-  firstName: String
-  middleName: String
-  lastName: String
   name: String
-  username: String
   email: String
 }

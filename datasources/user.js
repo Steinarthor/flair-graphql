@@ -18,4 +18,16 @@ export default class UserAPI extends RESTDataSource {
       console.log("err", err);
     }
   }
+
+  async addUser({ name, email }) {
+    try {
+      const addUserResponse = await this.post("adduser", {
+        name,
+        email,
+      });
+      return addUserResponse.Data;
+    } catch (error) {
+      console.log("err", error);
+    }
+  }
 }

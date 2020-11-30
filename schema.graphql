@@ -5,13 +5,18 @@
 # import Event from "./models/event.graphql"
 
 input LoginInput {
-  username: String!
+  email: String
   password: String
 }
 
 input SignupInput {
   password: String!
-  name: String!
+  name: String
+  email: String
+}
+
+input AddUserInput {
+  name: String
   email: String
 }
 
@@ -27,4 +32,5 @@ type Mutation {
   login(input: LoginInput): AuthResponse
   signup(input: SignupInput): AuthResponse
   addEvent: Event
+  addUser(input: AddUserInput): User
 }

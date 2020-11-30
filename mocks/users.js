@@ -1,31 +1,27 @@
 export const users = [
   {
     id: 1,
-    firstName: "Steinar",
-    middleName: "Þór",
-    lastName: "Oddsson",
+    name: "Steinar þór Oddsson",
+    email: "steinarthorr@gmail.com",
   },
   {
     id: 2,
-    firstName: "Anna",
-    middleName: "Heiða",
-    lastName: "Reynisdóttir",
+    name: "Anna Heiða Reynisdóttir",
+    email: "anna@gmail.com",
   },
   {
     id: 3,
-    firstName: "Oddur",
-    middleName: "Steinar",
-    lastName: "Birgisson",
+    name: "Oddur Steinar Birgisson",
+    email: "oddur@gmail.com",
   },
   {
     id: 4,
-    firstName: "Sæunn",
-    middleName: "Hafdís",
-    lastName: "Oddsdóttir",
+    name: "Sæunn Hafdís Oddsdóttir",
+    email: "saeunn@gmail.com",
   },
   {
     id: 5,
-    firstName: "Baiba",
-    lastName: "Vanaga",
+    name: "Bainba Vanaga",
+    email: "baiba@gmail.com",
   },
 ];
